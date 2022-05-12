@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+php_flag output_buffering on
+
+# Rewrite mode tin tuc #
+RewriteRule ^index.html index.php
+RewriteRule ^detail.html detail.php?masp=itema['masp']
+RewriteRule ^index.html index.php
+RewriteRule ^dangky.html dangky.php
+RewriteRule ^dangnhap.html dangnhap.php
+RewriteRule ^donhang.html donhang.php
+RewriteRule ^dathang.html dathang.php
+RewriteRule ^detail-donhang.html detail-donhang.php?madh=dhh['madh']
+RewriteRule ^info.html info.php
+RewriteRule ^search.html search.php
+RewriteRule ^cart.html cart.php
+RewriteRule ^datthanhcong.html datthanhcong.php
+RewriteRule ^check_user.html check_use.php
+RewriteRule ^lien-he.html lien-he.php

@@ -1,0 +1,60 @@
+.modal-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.modal-body{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+.modal-label {
+    text-align: left;
+    display: block;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#modal-footer{
+    text-align: center;
+    width: 100%;
+}
+
+#btn-cancel{
+    padding: 6px 24px;
+    background-color: #5BC142;
+    color: #FFF;
+    border: none;
+}
+#btn-cancel:hover{
+    opacity: 0.7;
+}
+#btn-sign-up{
+    padding: 6px 24px;
+    background-color: #5BC142;
+    color: #FFF;
+    border: none;
+}
+
+#btn-sign-up:hover{
+    opacity: 0.7;
+}
+.modal-body-map{
+    width: 100%;
+    height: 400px;
+}
+.modal-body-map iframe{
+    width: 100%;
+    height: 300px;
+}
